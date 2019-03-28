@@ -39,10 +39,19 @@
   top: 6rem;
   background-color: white;
   padding: 1rem 0;
+  margin-left: 64px;
 }
 
 .slds-global-header {
   height: 6rem;
-  padding: 2rem 0 2rem;
+  padding: 2rem 0 2rem 8rem;
   background-color: white;
+}
+
+nav {
+  background-color: #2a87e1 !important;
+}
+
+.sidenav-nav {
+  background-color: yellowgreen;
 }

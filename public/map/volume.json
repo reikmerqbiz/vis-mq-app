@@ -1,0 +1,1652 @@
+[
+  {
+    "volume": 30000.0,
+    "name": "Styro Recycle",
+    "coordinates": [-122.25, 47.4008],
+    "company_id": 269
+  },
+  {
+    "volume": 33330.0,
+    "name": "1994",
+    "coordinates": [-104.935, 39.7036],
+    "company_id": 645
+  },
+  {
+    "volume": 6000.0,
+    "name": "MCC Recycling Services, LLC",
+    "coordinates": [-74.8224, 40.1306],
+    "company_id": 21
+  },
+  {
+    "volume": 6000.0,
+    "name": "MCC Recycling Services, LLC",
+    "coordinates": [-75.7057, 41.4077],
+    "company_id": 21
+  },
+  {
+    "volume": 6000.0,
+    "name": "Bluewater Project Inc",
+    "coordinates": [-122.789, 49.2737],
+    "company_id": 684
+  },
+  {
+    "volume": 3600.0,
+    "name": "Faith technologies",
+    "coordinates": [-70.3037, 43.6075],
+    "company_id": 174
+  },
+  {
+    "volume": 3000.0,
+    "name": "nb_paper_seller_admin",
+    "coordinates": [-118.444, 33.9885],
+    "company_id": 20
+  },
+  {
+    "volume": 3000.0,
+    "name": "Merq Demo Seller Company",
+    "coordinates": [-118.26, 34.0367],
+    "company_id": 394
+  },
+  {
+    "volume": 3000.0,
+    "name": "Loop Recycling",
+    "coordinates": [-87.663, 41.8481],
+    "company_id": 197
+  },
+  {
+    "volume": 3000.0,
+    "name": "nb_paper_seller_admin",
+    "coordinates": [-117.898, 33.9834],
+    "company_id": 20
+  },
+  {
+    "volume": 3000.0,
+    "name": "prod-seller-03132019",
+    "coordinates": [-118.26, 34.0367],
+    "company_id": 685
+  },
+  {
+    "volume": 1800.0,
+    "name": "Santa Fe Solid Waste Management Agency",
+    "coordinates": [-117.913, 33.8353],
+    "company_id": 490
+  },
+  {
+    "volume": 1800.0,
+    "name": "1976",
+    "coordinates": [-75.646, 40.248],
+    "company_id": 482
+  },
+  {
+    "volume": 1800.0,
+    "name": "Kaskade Recycling IIC",
+    "coordinates": [-73.5501, 41.0383],
+    "company_id": 366
+  },
+  {
+    "volume": 1500.0,
+    "name": "City of Santa Cruz Resource Recovery Facility",
+    "coordinates": [-122.105, 36.9728],
+    "company_id": 388
+  },
+  {
+    "volume": 1500.0,
+    "name": "papercut",
+    "coordinates": [-117.836, 33.9975],
+    "company_id": 277
+  },
+  {
+    "volume": 1500.0,
+    "name": "Rack Enterprises, LLC",
+    "coordinates": [-74.9949, 40.0144],
+    "company_id": 8
+  },
+  {
+    "volume": 1500.0,
+    "name": "Waste Management - Chicago",
+    "coordinates": [-87.7064, 41.8062],
+    "company_id": 503
+  },
+  {
+    "volume": 1500.0,
+    "name": "Metro Metals Recycling Inc.",
+    "coordinates": [-118.4, 34.2518],
+    "company_id": 487
+  },
+  {
+    "volume": 1500.0,
+    "name": "Bakersfield ARC",
+    "coordinates": [-119.002, 35.3222],
+    "company_id": 486
+  },
+  {
+    "volume": 1500.0,
+    "name": "Mrs. Nelsons Library Services",
+    "coordinates": [-117.781, 34.0633],
+    "company_id": 268
+  },
+  {
+    "volume": 1500.0,
+    "name": "GLOBAL PAPER RECYCLING",
+    "coordinates": [-117.919, 33.8498],
+    "company_id": 365
+  },
+  {
+    "volume": 1500.0,
+    "name": "Loop Recycling",
+    "coordinates": [-84.0126, 33.6484],
+    "company_id": 197
+  },
+  {
+    "volume": 1500.0,
+    "name": "Grenelefe Recyclers",
+    "coordinates": [-73.6554, 40.6245],
+    "company_id": 613
+  },
+  {
+    "volume": 1380.0,
+    "name": "Afvalzaken",
+    "coordinates": [-87.6355, 41.8815],
+    "company_id": 565
+  },
+  {
+    "volume": 1380.0,
+    "name": "Area Recycling",
+    "coordinates": [-89.6663, 40.5284],
+    "company_id": 640
+  },
+  {
+    "volume": 1200.0,
+    "name": "Ascent Recycling",
+    "coordinates": [-98.5314, 29.4601],
+    "company_id": 298
+  },
+  {
+    "volume": 1200.0,
+    "name": "-",
+    "coordinates": [-80.2846, 26.1827],
+    "company_id": 448
+  },
+  {
+    "volume": 1200.0,
+    "name": "Ascent Recycling",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 298
+  },
+  {
+    "volume": 900.0,
+    "name": "Innovative Waste Systems",
+    "coordinates": [-91.2118, 30.5779],
+    "company_id": 369
+  },
+  {
+    "volume": 900.0,
+    "name": "RK Paper ",
+    "coordinates": [-81.4633, 28.6313],
+    "company_id": 372
+  },
+  {
+    "volume": 900.0,
+    "name": "ecomaine",
+    "coordinates": [-70.3341, 43.6533],
+    "company_id": 459
+  },
+  {
+    "volume": 900.0,
+    "name": "Royal Envelope Corp",
+    "coordinates": [-87.6493, 41.8195],
+    "company_id": 371
+  },
+  {
+    "volume": 900.0,
+    "name": "GJK Enterprises",
+    "coordinates": [-111.914, 40.5569],
+    "company_id": 393
+  },
+  {
+    "volume": 900.0,
+    "name": "GQIC Recycling ",
+    "coordinates": [-118.143, 34.0402],
+    "company_id": 384
+  },
+  {
+    "volume": 864.0,
+    "name": "MGM CARTING LLC",
+    "coordinates": [-118.26, 34.0367],
+    "company_id": 563
+  },
+  {
+    "volume": 864.0,
+    "name": "MGM CARTING LLC",
+    "coordinates": [-74.1454, 39.9906],
+    "company_id": 563
+  },
+  {
+    "volume": 810.0,
+    "name": "mQb Seller Test",
+    "coordinates": [-118.304, 33.8719],
+    "company_id": 450
+  },
+  {
+    "volume": 810.0,
+    "name": "West Coast Recycling",
+    "coordinates": [-118.12, 33.9767],
+    "company_id": 492
+  },
+  {
+    "volume": 810.0,
+    "name": "Jefferson County Recycling",
+    "coordinates": [-75.9502, 44.0573],
+    "company_id": 445
+  },
+  {
+    "volume": 810.0,
+    "name": "Merqbiz",
+    "coordinates": [-117.967, 33.8912],
+    "company_id": 457
+  },
+  {
+    "volume": 780.0,
+    "name": "California Recyclers. Inc. ",
+    "coordinates": [-117.523, 34.0561],
+    "company_id": 501
+  },
+  {
+    "volume": 780.0,
+    "name": "Western Pacific Pulp and Paper ",
+    "coordinates": [-118.118, 33.9294],
+    "company_id": 195
+  },
+  {
+    "volume": 780.0,
+    "name": "Southern Recycling LLC",
+    "coordinates": [-86.4432, 36.9991],
+    "company_id": 205
+  },
+  {
+    "volume": 780.0,
+    "name": "Southern Recycling LLC",
+    "coordinates": [-87.0822, 37.7705],
+    "company_id": 205
+  },
+  {
+    "volume": 780.0,
+    "name": "Southern Recycling LLC",
+    "coordinates": [-97.7454, 30.2702],
+    "company_id": 205
+  },
+  {
+    "volume": 750.0,
+    "name": "Guidance Solutions",
+    "coordinates": [-116.997, 32.6169],
+    "company_id": 9
+  },
+  {
+    "volume": 750.0,
+    "name": "US Green Fiber",
+    "coordinates": [-74.1522, 42.9784],
+    "company_id": 458
+  },
+  {
+    "volume": 750.0,
+    "name": "Webbers corporation",
+    "coordinates": [-106.591, 35.1719],
+    "company_id": 453
+  },
+  {
+    "volume": 750.0,
+    "name": "saramerq",
+    "coordinates": [-118.375, 34.0257],
+    "company_id": 452
+  },
+  {
+    "volume": 750.0,
+    "name": "US Green Fiber",
+    "coordinates": [-75.7959, 41.2947],
+    "company_id": 458
+  },
+  {
+    "volume": 750.0,
+    "name": "Menasha Packaging Company",
+    "coordinates": [-88.4915, 44.1455],
+    "company_id": 449
+  },
+  {
+    "volume": 720.0,
+    "name": "Baziley",
+    "coordinates": [-73.9258, 40.6235],
+    "company_id": 580
+  },
+  {
+    "volume": 720.0,
+    "name": "ASC",
+    "coordinates": [-84.014, 34.099],
+    "company_id": 653
+  },
+  {
+    "volume": 720.0,
+    "name": "Bristol Paper Recycling LLC",
+    "coordinates": [-71.0499, 42.3831],
+    "company_id": 559
+  },
+  {
+    "volume": 675.0,
+    "name": "The Astor Company",
+    "coordinates": [-87.6349, 41.8811],
+    "company_id": 691
+  },
+  {
+    "volume": 666.0,
+    "name": "Powers Paper",
+    "coordinates": [-122.689, 45.6367],
+    "company_id": 636
+  },
+  {
+    "volume": 639.0,
+    "name": "Specialty Coating and Laminating",
+    "coordinates": [-77.46, 37.8639],
+    "company_id": 614
+  },
+  {
+    "volume": 600.0,
+    "name": "United States Gypsum Company",
+    "coordinates": [-87.6417, 41.8795],
+    "company_id": 230
+  },
+  {
+    "volume": 600.0,
+    "name": "Santa Fe Solid Waste Management Agency",
+    "coordinates": [-106.088, 35.6767],
+    "company_id": 490
+  },
+  {
+    "volume": 600.0,
+    "name": "Echo Fibers",
+    "coordinates": [-117.836, 33.9975],
+    "company_id": 301
+  },
+  {
+    "volume": 600.0,
+    "name": "merq-prod-seller-0920-01",
+    "coordinates": [-118.26, 34.0367],
+    "company_id": 516
+  },
+  {
+    "volume": 600.0,
+    "name": "Olive Street Processing ",
+    "coordinates": [-76.9314, 38.9119],
+    "company_id": 578
+  },
+  {
+    "volume": 600.0,
+    "name": "ECO RECYCLING LLC",
+    "coordinates": [-80.2575, 25.8477],
+    "company_id": 460
+  },
+  {
+    "volume": 600.0,
+    "name": "Core States Processing",
+    "coordinates": [-75.7057, 41.4077],
+    "company_id": 70
+  },
+  {
+    "volume": 600.0,
+    "name": "Going Green Recycle",
+    "coordinates": [-118.07, 33.8084],
+    "company_id": 278
+  },
+  {
+    "volume": 600.0,
+    "name": "Andrea Gacs",
+    "coordinates": [-118.346, 34.0758],
+    "company_id": 434
+  },
+  {
+    "volume": 600.0,
+    "name": "Going Green Recycle",
+    "coordinates": [-122.242, 47.2064],
+    "company_id": 278
+  },
+  {
+    "volume": 576.0,
+    "name": "Demo Seller 1026",
+    "coordinates": [-118.401, 33.9168],
+    "company_id": 549
+  },
+  {
+    "volume": 540.0,
+    "name": "Orlando Waste Paper Company",
+    "coordinates": [-81.4096, 28.5756],
+    "company_id": 209
+  },
+  {
+    "volume": 480.0,
+    "name": "Chick-fil-A Vernon Hills",
+    "coordinates": [-96.4418, 32.7391],
+    "company_id": 160
+  },
+  {
+    "volume": 450.0,
+    "name": "GPB Waste NY, LLC",
+    "coordinates": [-74.1147, 40.8008],
+    "company_id": 561
+  },
+  {
+    "volume": 432.0,
+    "name": "Stephenshare.com",
+    "coordinates": [-118.26, 34.0367],
+    "company_id": 536
+  },
+  {
+    "volume": 420.0,
+    "name": "Buckeye Processing & MRF, LLC",
+    "coordinates": [-120.697, 35.6964],
+    "company_id": 148
+  },
+  {
+    "volume": 405.0,
+    "name": "Northstar Pulp & Paper Co. Inc.",
+    "coordinates": [-72.5577, 42.1355],
+    "company_id": 654
+  },
+  {
+    "volume": 405.0,
+    "name": "Cedric Cunningham ",
+    "coordinates": [-80.2402, 25.9408],
+    "company_id": 667
+  },
+  {
+    "volume": 405.0,
+    "name": "Merqbiz",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 457
+  },
+  {
+    "volume": 405.0,
+    "name": "neurology",
+    "coordinates": [-80.2058, 26.1204],
+    "company_id": 531
+  },
+  {
+    "volume": 390.0,
+    "name": "Bob's Excavating",
+    "coordinates": [-75.5185, 41.3368],
+    "company_id": 600
+  },
+  {
+    "volume": 390.0,
+    "name": "Aloha Waste Systems Inc.",
+    "coordinates": [-118.595, 34.2604],
+    "company_id": 526
+  },
+  {
+    "volume": 390.0,
+    "name": "GreenWaste Recovery Inc.",
+    "coordinates": [-121.896, 37.3659],
+    "company_id": 665
+  },
+  {
+    "volume": 390.0,
+    "name": "Aloha Waste Systems Inc.",
+    "coordinates": [-156.46, 20.84],
+    "company_id": 526
+  },
+  {
+    "volume": 363.6,
+    "name": "Kings Waste And Recycling Authority",
+    "coordinates": [-119.598, 36.3027],
+    "company_id": 569
+  },
+  {
+    "volume": 360.0,
+    "name": "all world ",
+    "coordinates": [-117.868, 33.661],
+    "company_id": 368
+  },
+  {
+    "volume": 360.0,
+    "name": "Bristol Paper Recycling LLC",
+    "coordinates": [-73.7821, 41.1329],
+    "company_id": 559
+  },
+  {
+    "volume": 360.0,
+    "name": "Panzarella Waste & Recycling",
+    "coordinates": [-80.1439, 26.2275],
+    "company_id": 647
+  },
+  {
+    "volume": 360.0,
+    "name": "THE SHREDDING PLACE",
+    "coordinates": [-118.314, 33.8466],
+    "company_id": 590
+  },
+  {
+    "volume": 360.0,
+    "name": "Garden St. Paper Products",
+    "coordinates": [-81.8518, 26.6294],
+    "company_id": 330
+  },
+  {
+    "volume": 360.0,
+    "name": "East Coast Paper Stock",
+    "coordinates": [-85.6536, 41.8405],
+    "company_id": 124
+  },
+  {
+    "volume": 315.0,
+    "name": "prod-magento-monitoring",
+    "coordinates": [-118.26, 34.0367],
+    "company_id": 652
+  },
+  {
+    "volume": 315.0,
+    "name": "Superior Lithographics",
+    "coordinates": [-118.214, 34.0093],
+    "company_id": 497
+  },
+  {
+    "volume": 312.0,
+    "name": "ups store 6917",
+    "coordinates": [-118.417, 34.1885],
+    "company_id": 440
+  },
+  {
+    "volume": 300.0,
+    "name": "Insulectro ",
+    "coordinates": [-88.1253, 41.9476],
+    "company_id": 464
+  },
+  {
+    "volume": 300.0,
+    "name": "iSecure Inc.",
+    "coordinates": [-123.33, 42.44],
+    "company_id": 221
+  },
+  {
+    "volume": 300.0,
+    "name": "Griff Paper and Film",
+    "coordinates": [-75.6767, 45.44],
+    "company_id": 128
+  },
+  {
+    "volume": 300.0,
+    "name": "Bevlar",
+    "coordinates": [-78.8538, 42.9113],
+    "company_id": 576
+  },
+  {
+    "volume": 300.0,
+    "name": "ProSource Procurement Group, Inc",
+    "coordinates": [-84.4021, 34.158],
+    "company_id": 346
+  },
+  {
+    "volume": 300.0,
+    "name": "Save That Stuff",
+    "coordinates": [-71.0499, 42.3831],
+    "company_id": 61
+  },
+  {
+    "volume": 300.0,
+    "name": "WR Fibers Inc..",
+    "coordinates": [-117.836, 33.9975],
+    "company_id": 261
+  },
+  {
+    "volume": 300.0,
+    "name": "iSecure Inc.",
+    "coordinates": [-123.37, 42.5039],
+    "company_id": 221
+  },
+  {
+    "volume": 300.0,
+    "name": "Scotia Recycling, Limited",
+    "coordinates": [-116.852, 36.4503],
+    "company_id": 305
+  },
+  {
+    "volume": 300.0,
+    "name": "Total Destruction",
+    "coordinates": [-105.974, 32.8554],
+    "company_id": 692
+  },
+  {
+    "volume": 300.0,
+    "name": "Ambit Pacific Recycling Inc.",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 290
+  },
+  {
+    "volume": 300.0,
+    "name": "Organic Waste Management",
+    "coordinates": [-71.0379, 42.4308],
+    "company_id": 62
+  },
+  {
+    "volume": 300.0,
+    "name": "Grand Rapids Iron and Metal",
+    "coordinates": [-85.6883, 42.9335],
+    "company_id": 198
+  },
+  {
+    "volume": 300.0,
+    "name": "Bevlar",
+    "coordinates": [-73.9883, 41.1352],
+    "company_id": 576
+  },
+  {
+    "volume": 300.0,
+    "name": "mQb Test Howard Seller",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 255
+  },
+  {
+    "volume": 300.0,
+    "name": "Ambit Pacific Recycling Inc.",
+    "coordinates": [-118.282, 33.8839],
+    "company_id": 290
+  },
+  {
+    "volume": 300.0,
+    "name": "Hanna Paper Recycling Inc.  ",
+    "coordinates": [-97.0867, 32.5956],
+    "company_id": 345
+  },
+  {
+    "volume": 300.0,
+    "name": "River West Book Recycling",
+    "coordinates": [-87.7173, 41.6537],
+    "company_id": 113
+  },
+  {
+    "volume": 300.0,
+    "name": "Griff Paper and Film",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 128
+  },
+  {
+    "volume": 300.0,
+    "name": "SQA Paper Company",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 324
+  },
+  {
+    "volume": 300.0,
+    "name": "QA-SELLER-0821",
+    "coordinates": [-118.375, 34.0257],
+    "company_id": 476
+  },
+  {
+    "volume": 300.0,
+    "name": "merq-demo-seller-0913-02",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 507
+  },
+  {
+    "volume": 300.0,
+    "name": "merq-demo-seller-0913-02",
+    "coordinates": [-118.26, 34.0367],
+    "company_id": 507
+  },
+  {
+    "volume": 300.0,
+    "name": "The Dingley Press",
+    "coordinates": [-70.1134, 44.0443],
+    "company_id": 610
+  },
+  {
+    "volume": 300.0,
+    "name": "Elk County Community Recycling",
+    "coordinates": [-78.556, 41.4479],
+    "company_id": 463
+  },
+  {
+    "volume": 300.0,
+    "name": "Echo Fibers",
+    "coordinates": [-97.0867, 32.5956],
+    "company_id": 301
+  },
+  {
+    "volume": 300.0,
+    "name": "Griff Paper and Film",
+    "coordinates": [-74.8078, 40.1928],
+    "company_id": 128
+  },
+  {
+    "volume": 300.0,
+    "name": "iSecure Inc.",
+    "coordinates": [-123.322, 42.4506],
+    "company_id": 221
+  },
+  {
+    "volume": 300.0,
+    "name": "QA-SELLER-0821",
+    "coordinates": [-118.26, 34.0367],
+    "company_id": 476
+  },
+  {
+    "volume": 300.0,
+    "name": "Union Paper Mills",
+    "coordinates": [-96.7278, 32.6867],
+    "company_id": 229
+  },
+  {
+    "volume": 300.0,
+    "name": "CGRC Recycling Consultants",
+    "coordinates": [-117.837, 33.9949],
+    "company_id": 142
+  },
+  {
+    "volume": 300.0,
+    "name": "Kruger",
+    "coordinates": [-73.6055, 45.4616],
+    "company_id": 120
+  },
+  {
+    "volume": 264.0,
+    "name": "Howard",
+    "coordinates": [-118.304, 33.8716],
+    "company_id": 117
+  },
+  {
+    "volume": 240.0,
+    "name": "Chick-fil-A Vernon Hills",
+    "coordinates": [-96.6279, 32.8036],
+    "company_id": 160
+  },
+  {
+    "volume": 240.0,
+    "name": "Federal International Recycling & Waste Solutions, LLC",
+    "coordinates": [-96.8623, 32.7734],
+    "company_id": 96
+  },
+  {
+    "volume": 240.0,
+    "name": "Rumpke",
+    "coordinates": [-84.1675, 39.7697],
+    "company_id": 145
+  },
+  {
+    "volume": 240.0,
+    "name": "Georgetown Paper",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 122
+  },
+  {
+    "volume": 240.0,
+    "name": "SOS",
+    "coordinates": [-95.6327, 29.5849],
+    "company_id": 134
+  },
+  {
+    "volume": 240.0,
+    "name": "Georgetown Paper",
+    "coordinates": [-77.1369, 39.0988],
+    "company_id": 122
+  },
+  {
+    "volume": 240.0,
+    "name": "Bulldog Shredders",
+    "coordinates": [-98.0015, 32.7386],
+    "company_id": 90
+  },
+  {
+    "volume": 240.0,
+    "name": "Full Container Recovery",
+    "coordinates": [-122.388, 47.2699],
+    "company_id": 289
+  },
+  {
+    "volume": 240.0,
+    "name": "Rumpke",
+    "coordinates": [-84.4953, 39.1816],
+    "company_id": 145
+  },
+  {
+    "volume": 240.0,
+    "name": "Lucky Group ",
+    "coordinates": [-71.0379, 42.4308],
+    "company_id": 92
+  },
+  {
+    "volume": 240.0,
+    "name": "Chick-fil-A Vernon Hills",
+    "coordinates": [-117.993, 34.0543],
+    "company_id": 160
+  },
+  {
+    "volume": 240.0,
+    "name": "Kline Paper Mill Supplies, Inc",
+    "coordinates": [-76.8402, 39.1705],
+    "company_id": 94
+  },
+  {
+    "volume": 240.0,
+    "name": "Metropolitan Fiber, Inc.",
+    "coordinates": [-87.9073, 41.8949],
+    "company_id": 272
+  },
+  {
+    "volume": 240.0,
+    "name": "Miami Waste Paper ",
+    "coordinates": [-80.22, 25.7962],
+    "company_id": 135
+  },
+  {
+    "volume": 240.0,
+    "name": "Blue Waters Recycling/Smith Sanitation, Inc",
+    "coordinates": [-84.4354, 46.3747],
+    "company_id": 131
+  },
+  {
+    "volume": 240.0,
+    "name": "Brothers Recycling",
+    "coordinates": [-86.7925, 33.5445],
+    "company_id": 101
+  },
+  {
+    "volume": 225.0,
+    "name": "Emme Moving Inc",
+    "coordinates": [-77.4177, 38.9909],
+    "company_id": 512
+  },
+  {
+    "volume": 216.0,
+    "name": "Pleasant Paper Recycling Inc. ",
+    "coordinates": [-122.05, 37.9763],
+    "company_id": 582
+  },
+  {
+    "volume": 216.0,
+    "name": "United States Recycling Inc.",
+    "coordinates": [-75.0533, 40.014],
+    "company_id": 651
+  },
+  {
+    "volume": 216.0,
+    "name": "River Road Transfer Station Inc.",
+    "coordinates": [-77.742, 42.9817],
+    "company_id": 591
+  },
+  {
+    "volume": 216.0,
+    "name": "grolink",
+    "coordinates": [-119.225, 34.2197],
+    "company_id": 611
+  },
+  {
+    "volume": 216.0,
+    "name": "Loyola Marymount University",
+    "coordinates": [-118.417, 33.9702],
+    "company_id": 596
+  },
+  {
+    "volume": 180.0,
+    "name": "Perla",
+    "coordinates": [-80.22, 25.7962],
+    "company_id": 152
+  },
+  {
+    "volume": 180.0,
+    "name": "Northcoast Shredding Service, Inc",
+    "coordinates": [-81.4784, 41.6083],
+    "company_id": 199
+  },
+  {
+    "volume": 180.0,
+    "name": "Recycling Alliance",
+    "coordinates": [-84.4505, 39.2542],
+    "company_id": 105
+  },
+  {
+    "volume": 180.0,
+    "name": "Byproduct Solutions, Inc",
+    "coordinates": [-83.6523, 43.0348],
+    "company_id": 360
+  },
+  {
+    "volume": 180.0,
+    "name": "Legend International Inc.",
+    "coordinates": [-115.313, 36.1278],
+    "company_id": 191
+  },
+  {
+    "volume": 180.0,
+    "name": "Smurfit Kappa North America",
+    "coordinates": [-96.4418, 32.7391],
+    "company_id": 129
+  },
+  {
+    "volume": 180.0,
+    "name": "Smurfit Kappa North America",
+    "coordinates": [-96.6279, 32.8036],
+    "company_id": 129
+  },
+  {
+    "volume": 180.0,
+    "name": "All Points Recycling",
+    "coordinates": [-93.874, 36.6816],
+    "company_id": 193
+  },
+  {
+    "volume": 168.0,
+    "name": "QA-SELLER-0820",
+    "coordinates": [-118.26, 34.0367],
+    "company_id": 475
+  },
+  {
+    "volume": 165.0,
+    "name": "Montreal Polymers ",
+    "coordinates": [-73.6803, 45.487],
+    "company_id": 562
+  },
+  {
+    "volume": 150.0,
+    "name": "Digital Room Inc",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 140
+  },
+  {
+    "volume": 150.0,
+    "name": "Organic Waste Management",
+    "coordinates": [-112.138, 33.443],
+    "company_id": 62
+  },
+  {
+    "volume": 138.0,
+    "name": "Mahek",
+    "coordinates": [-72.9749, 40.8165],
+    "company_id": 146
+  },
+  {
+    "volume": 138.0,
+    "name": "Mahek",
+    "coordinates": [-76.8402, 39.1705],
+    "company_id": 146
+  },
+  {
+    "volume": 138.0,
+    "name": "Min Industries",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 76
+  },
+  {
+    "volume": 135.0,
+    "name": "Kimble Company",
+    "coordinates": [-81.531, 40.5273],
+    "company_id": 97
+  },
+  {
+    "volume": 135.0,
+    "name": "Kimble Company",
+    "coordinates": [-81.4735, 41.3008],
+    "company_id": 97
+  },
+  {
+    "volume": 135.0,
+    "name": "BCG DV",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 81
+  },
+  {
+    "volume": 132.0,
+    "name": "Huron Paper Stock Co, Inc.",
+    "coordinates": [-87.6913, 41.8857],
+    "company_id": 87
+  },
+  {
+    "volume": 132.0,
+    "name": "Encore Recycling",
+    "coordinates": [-76.8864, 39.0717],
+    "company_id": 165
+  },
+  {
+    "volume": 132.0,
+    "name": "American Recycling Center",
+    "coordinates": [-78.8253, 35.657],
+    "company_id": 192
+  },
+  {
+    "volume": 132.0,
+    "name": "Amthor Verlag",
+    "coordinates": [-96.8691, 32.7186],
+    "company_id": 123
+  },
+  {
+    "volume": 132.0,
+    "name": "A&J Waste Solutions",
+    "coordinates": [-119.602, 36.5565],
+    "company_id": 564
+  },
+  {
+    "volume": 120.0,
+    "name": "Pratt Recycling, Inc",
+    "coordinates": [-84.0126, 33.6484],
+    "company_id": 172
+  },
+  {
+    "volume": 120.0,
+    "name": "Gulnora",
+    "coordinates": [-75.034, 40.1068],
+    "company_id": 442
+  },
+  {
+    "volume": 120.0,
+    "name": "Felix Technology Inc",
+    "coordinates": [-117.637, 34.0602],
+    "company_id": 227
+  },
+  {
+    "volume": 120.0,
+    "name": "Rumpke",
+    "coordinates": [-82.9932, 39.989],
+    "company_id": 145
+  },
+  {
+    "volume": 120.0,
+    "name": "Mendoza’s recycling",
+    "coordinates": [-80.8849, 35.1671],
+    "company_id": 294
+  },
+  {
+    "volume": 120.0,
+    "name": "J  Breyer  Doran",
+    "coordinates": [-76.5234, 39.2978],
+    "company_id": 231
+  },
+  {
+    "volume": 120.0,
+    "name": "Allied Waste Services of North America, LLC",
+    "coordinates": [-78.9016, 42.9686],
+    "company_id": 374
+  },
+  {
+    "volume": 120.0,
+    "name": "MQB Marketing",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 103
+  },
+  {
+    "volume": 120.0,
+    "name": "GHD",
+    "coordinates": [-86.2655, 39.8745],
+    "company_id": 443
+  },
+  {
+    "volume": 120.0,
+    "name": "Empire State Recycling",
+    "coordinates": [-75.9236, 40.3261],
+    "company_id": 224
+  },
+  {
+    "volume": 120.0,
+    "name": "testSellerSQA",
+    "coordinates": [-84.1924, 42.6635],
+    "company_id": 232
+  },
+  {
+    "volume": 120.0,
+    "name": "testSellerSQA",
+    "coordinates": [-118.129, 34.0518],
+    "company_id": 232
+  },
+  {
+    "volume": 120.0,
+    "name": "East Coast Paper Stock",
+    "coordinates": [-80.6959, 28.2716],
+    "company_id": 124
+  },
+  {
+    "volume": 120.0,
+    "name": "Naturally Vital inc",
+    "coordinates": [-87.6913, 41.8857],
+    "company_id": 130
+  },
+  {
+    "volume": 120.0,
+    "name": "MQB Marketing",
+    "coordinates": [-75.7057, 41.4077],
+    "company_id": 103
+  },
+  {
+    "volume": 120.0,
+    "name": "Allied Waste Services of North America, LLC",
+    "coordinates": [-78.8943, 42.9684],
+    "company_id": 374
+  },
+  {
+    "volume": 120.0,
+    "name": "Medina Recycling ",
+    "coordinates": [-118.118, 33.9294],
+    "company_id": 225
+  },
+  {
+    "volume": 120.0,
+    "name": "JNJ Farms",
+    "coordinates": [-85.6469, 41.7895],
+    "company_id": 180
+  },
+  {
+    "volume": 120.0,
+    "name": "Richard S. Burns & Company",
+    "coordinates": [-75.1298, 40.0163],
+    "company_id": 13
+  },
+  {
+    "volume": 120.0,
+    "name": "Allied Waste Services of North America, LLC",
+    "coordinates": [-78.8956, 42.9669],
+    "company_id": 374
+  },
+  {
+    "volume": 120.0,
+    "name": "Felix Technology Inc",
+    "coordinates": [-117.924, 33.9896],
+    "company_id": 227
+  },
+  {
+    "volume": 120.0,
+    "name": "Grupo Maresa",
+    "coordinates": [-78.6837, 43.1713],
+    "company_id": 40
+  },
+  {
+    "volume": 120.0,
+    "name": "Beloit Box Board Co. Inc.",
+    "coordinates": [-89.03, 42.51],
+    "company_id": 115
+  },
+  {
+    "volume": 120.0,
+    "name": "Grupo Paper Green S.A. DE CV",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 323
+  },
+  {
+    "volume": 120.0,
+    "name": "ECOm",
+    "coordinates": [-119.059, 34.3542],
+    "company_id": 566
+  },
+  {
+    "volume": 120.0,
+    "name": "PenCor Services",
+    "coordinates": [-75.5902, 40.8124],
+    "company_id": 14
+  },
+  {
+    "volume": 120.0,
+    "name": "Empire State Recycling",
+    "coordinates": [-72.9581, 40.8152],
+    "company_id": 224
+  },
+  {
+    "volume": 120.0,
+    "name": "Mendoza’s recycling",
+    "coordinates": [-75.7959, 41.2947],
+    "company_id": 294
+  },
+  {
+    "volume": 120.0,
+    "name": "CSR Professional Services",
+    "coordinates": [-80.2419, 27.2237],
+    "company_id": 441
+  },
+  {
+    "volume": 120.0,
+    "name": "Grupo Maresa",
+    "coordinates": [-78.6721, 43.1729],
+    "company_id": 40
+  },
+  {
+    "volume": 120.0,
+    "name": "Brothers Recycling",
+    "coordinates": [-72.3461, 43.3736],
+    "company_id": 101
+  },
+  {
+    "volume": 72.0,
+    "name": "Sunshine Disposal & Recycling",
+    "coordinates": [-91.3216, 30.7101],
+    "company_id": 378
+  },
+  {
+    "volume": 72.0,
+    "name": "Sunshine Disposal & Recycling",
+    "coordinates": [-87.9346, 36.0837],
+    "company_id": 378
+  },
+  {
+    "volume": 72.0,
+    "name": "Sunshine Disposal & Recycling",
+    "coordinates": [-117.43, 47.66],
+    "company_id": 378
+  },
+  {
+    "volume": 66.0,
+    "name": "Individual",
+    "coordinates": [-77.5827, 43.2431],
+    "company_id": 598
+  },
+  {
+    "volume": 66.0,
+    "name": "American Recycling Center",
+    "coordinates": [-81.1045, 32.0595],
+    "company_id": 192
+  },
+  {
+    "volume": 66.0,
+    "name": "Corridor Recycling",
+    "coordinates": [-118.229, 33.8214],
+    "company_id": 284
+  },
+  {
+    "volume": 66.0,
+    "name": "TGI Recycling LLC",
+    "coordinates": [-118.559, 34.1724],
+    "company_id": 599
+  },
+  {
+    "volume": 66.0,
+    "name": "American Recycling Center",
+    "coordinates": [-87.2956, 40.9122],
+    "company_id": 192
+  },
+  {
+    "volume": 66.0,
+    "name": "American Recycling Center",
+    "coordinates": [-85.647, 41.7893],
+    "company_id": 192
+  },
+  {
+    "volume": 66.0,
+    "name": "Group KLT",
+    "coordinates": [-68.836, 44.7925],
+    "company_id": 50
+  },
+  {
+    "volume": 66.0,
+    "name": "Grant Paper",
+    "coordinates": [-75.3078, 40.0712],
+    "company_id": 127
+  },
+  {
+    "volume": 66.0,
+    "name": "Group KLT",
+    "coordinates": [-71.5832, 42.341],
+    "company_id": 50
+  },
+  {
+    "volume": 66.0,
+    "name": "American Recycling Center",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 192
+  },
+  {
+    "volume": 66.0,
+    "name": "Group KLT",
+    "coordinates": [-70.2678, 44.0671],
+    "company_id": 50
+  },
+  {
+    "volume": 66.0,
+    "name": "Group KLT",
+    "coordinates": [-71.8635, 42.062],
+    "company_id": 50
+  },
+  {
+    "volume": 66.0,
+    "name": "Interco Trading Co.",
+    "coordinates": [-96.8623, 32.7734],
+    "company_id": 133
+  },
+  {
+    "volume": 66.0,
+    "name": "American Recycling Center",
+    "coordinates": [-91.3216, 30.7101],
+    "company_id": 192
+  },
+  {
+    "volume": 60.0,
+    "name": "Commercial Printing Network",
+    "coordinates": [-118.202, 34.1397],
+    "company_id": 655
+  },
+  {
+    "volume": 60.0,
+    "name": "Parivex SL",
+    "coordinates": [-87.4787, 31.9686],
+    "company_id": 111
+  },
+  {
+    "volume": 60.0,
+    "name": "Astoria (Oregon) Lions Club",
+    "coordinates": [-117.836, 33.9975],
+    "company_id": 312
+  },
+  {
+    "volume": 60.0,
+    "name": "Atlantic Waste",
+    "coordinates": [-81.2009, 32.0748],
+    "company_id": 521
+  },
+  {
+    "volume": 60.0,
+    "name": "Holger Paper",
+    "coordinates": [-73.6055, 45.4616],
+    "company_id": 77
+  },
+  {
+    "volume": 60.0,
+    "name": "Safeshred",
+    "coordinates": [-118.145, 33.9809],
+    "company_id": 194
+  },
+  {
+    "volume": 60.0,
+    "name": "Recycle South Florida",
+    "coordinates": [-118.249, 33.8237],
+    "company_id": 147
+  },
+  {
+    "volume": 60.0,
+    "name": "Pallet Management, Inc",
+    "coordinates": [-88.0875, 42.4752],
+    "company_id": 170
+  },
+  {
+    "volume": 60.0,
+    "name": "Western Pacific Pulp and Paper",
+    "coordinates": [-73.6055, 45.4616],
+    "company_id": 161
+  },
+  {
+    "volume": 60.0,
+    "name": "Lilly & You LLC",
+    "coordinates": [-79.5431, 43.6275],
+    "company_id": 79
+  },
+  {
+    "volume": 60.0,
+    "name": "Kampa Recycling & Trading",
+    "coordinates": [-83.9639, 36.019],
+    "company_id": 481
+  },
+  {
+    "volume": 60.0,
+    "name": "Rei seller company",
+    "coordinates": [-118.287, 33.7271],
+    "company_id": 252
+  },
+  {
+    "volume": 60.0,
+    "name": "Phoenix/Packaging, Inc",
+    "coordinates": [-76.4682, 40.1094],
+    "company_id": 658
+  },
+  {
+    "volume": 60.0,
+    "name": "Greenwood Company",
+    "coordinates": [-118.423, 34.2076],
+    "company_id": 260
+  },
+  {
+    "volume": 60.0,
+    "name": "Applied Materials Trading, LLC",
+    "coordinates": [-81.4633, 28.6313],
+    "company_id": 314
+  },
+  {
+    "volume": 60.0,
+    "name": "DTC Staris",
+    "coordinates": [-118.423, 34.2076],
+    "company_id": 311
+  },
+  {
+    "volume": 60.0,
+    "name": "Western Pacific Pulp and Paper",
+    "coordinates": [-72.5575, 46.3272],
+    "company_id": 161
+  },
+  {
+    "volume": 60.0,
+    "name": "Some company",
+    "coordinates": [-72.9749, 40.8165],
+    "company_id": 248
+  },
+  {
+    "volume": 60.0,
+    "name": "Textbook Brokers Inc ",
+    "coordinates": [-93.1419, 37.0292],
+    "company_id": 373
+  },
+  {
+    "volume": 60.0,
+    "name": "Kampa Recycling & Trading",
+    "coordinates": [-63.5664, 44.6414],
+    "company_id": 481
+  },
+  {
+    "volume": 60.0,
+    "name": "ELITE FLOWER",
+    "coordinates": [-122.804, 47.4706],
+    "company_id": 601
+  },
+  {
+    "volume": 60.0,
+    "name": "Some company",
+    "coordinates": [-72.9581, 40.8152],
+    "company_id": 248
+  },
+  {
+    "volume": 60.0,
+    "name": "Imex Converting LLC",
+    "coordinates": [-80.3479, 25.8637],
+    "company_id": 100
+  },
+  {
+    "volume": 60.0,
+    "name": "Phoenix Modular Elevator",
+    "coordinates": [-89.03, 42.51],
+    "company_id": 143
+  },
+  {
+    "volume": 60.0,
+    "name": "PAPREC GROUP",
+    "coordinates": [-115.313, 36.1278],
+    "company_id": 220
+  },
+  {
+    "volume": 60.0,
+    "name": "JNJ Farms",
+    "coordinates": [-85.6433, 41.7981],
+    "company_id": 180
+  },
+  {
+    "volume": 60.0,
+    "name": "Fomento De Construcciones y Contratas S.A.",
+    "coordinates": [-96.7278, 32.6867],
+    "company_id": 200
+  },
+  {
+    "volume": 60.0,
+    "name": "Medina Recycling ",
+    "coordinates": [-81.8937, 41.1334],
+    "company_id": 225
+  },
+  {
+    "volume": 60.0,
+    "name": "Parivex SL",
+    "coordinates": [-86.4681, 32.4365],
+    "company_id": 111
+  },
+  {
+    "volume": 60.0,
+    "name": "Greenwood Company",
+    "coordinates": [-118.148, 33.997],
+    "company_id": 260
+  },
+  {
+    "volume": 60.0,
+    "name": "Western Pacific Pulp and Paper",
+    "coordinates": [-73.4705, 45.9662],
+    "company_id": 161
+  },
+  {
+    "volume": 60.0,
+    "name": "Recycling Industries, Inc.",
+    "coordinates": [-121.385, 38.6513],
+    "company_id": 505
+  },
+  {
+    "volume": 60.0,
+    "name": "Parivex SL",
+    "coordinates": [-85.3251, 34.2552],
+    "company_id": 111
+  },
+  {
+    "volume": 60.0,
+    "name": "DTC Staris",
+    "coordinates": [-118.148, 33.997],
+    "company_id": 311
+  },
+  {
+    "volume": 60.0,
+    "name": "Undetermined",
+    "coordinates": [-112.027, 41.1492],
+    "company_id": 489
+  },
+  {
+    "volume": 60.0,
+    "name": "Underground Vaults & Storage, Inc.",
+    "coordinates": [-97.3312, 37.7435],
+    "company_id": 222
+  },
+  {
+    "volume": 60.0,
+    "name": "Byproduct Solutions, Inc",
+    "coordinates": [-90.4293, 44.0276],
+    "company_id": 360
+  },
+  {
+    "volume": 60.0,
+    "name": "Textbook Brokers Inc ",
+    "coordinates": [-118.232, 34.0975],
+    "company_id": 373
+  },
+  {
+    "volume": 60.0,
+    "name": "Linden Trading Company Inc.",
+    "coordinates": [-117.913, 33.8353],
+    "company_id": 477
+  },
+  {
+    "volume": 60.0,
+    "name": "RMR-Philadelphia",
+    "coordinates": [-84.3874, 33.7574],
+    "company_id": 169
+  },
+  {
+    "volume": 15.0,
+    "name": "MO State Recycling Program",
+    "coordinates": [-118.392, 33.901],
+    "company_id": 279
+  },
+  {
+    "volume": 0.0,
+    "name": "E.L. Harvey & Sons Inc",
+    "coordinates": [-71.5915, 42.2555],
+    "company_id": 59
+  },
+  {
+    "volume": 0.0,
+    "name": "Local First Group, LLC",
+    "coordinates": [-69.7194, 44.765],
+    "company_id": 336
+  },
+  {
+    "volume": 0.0,
+    "name": "GreenX2",
+    "coordinates": [-91.4801, 45.0929],
+    "company_id": 338
+  },
+  {
+    "volume": 0.0,
+    "name": "AmeriSouth Recycling",
+    "coordinates": [-84.3936, 33.6539],
+    "company_id": 337
+  },
+  {
+    "volume": 0.0,
+    "name": "GreenX2",
+    "coordinates": [-92.1097, 32.4781],
+    "company_id": 338
+  },
+  {
+    "volume": 0.0,
+    "name": "ReCommunity",
+    "coordinates": [-80.8568, 35.228],
+    "company_id": 22
+  },
+  {
+    "volume": 0.0,
+    "name": "JCB Packaging",
+    "coordinates": [-122.897, 45.5454],
+    "company_id": 389
+  },
+  {
+    "volume": 0.0,
+    "name": "GreenX2",
+    "coordinates": [-111.776, 33.4627],
+    "company_id": 338
+  },
+  {
+    "volume": 0.0,
+    "name": "ReCommunity",
+    "coordinates": [-75.1038, 39.9151],
+    "company_id": 22
+  },
+  {
+    "volume": 0.0,
+    "name": "ReCommunity",
+    "coordinates": [-74.5157, 40.3136],
+    "company_id": 22
+  },
+  {
+    "volume": 0.0,
+    "name": "One-Stop Recycling",
+    "coordinates": [-118.263, 33.9753],
+    "company_id": 390
+  },
+  {
+    "volume": 0.0,
+    "name": "AmeriSouth Recycling",
+    "coordinates": [-84.39, 33.75],
+    "company_id": 337
+  },
+  {
+    "volume": 0.0,
+    "name": "ReCommunity",
+    "coordinates": [-74.8224, 40.1306],
+    "company_id": 22
+  },
+  {
+    "volume": 0.0,
+    "name": "GreenX2",
+    "coordinates": [-84.1924, 42.6635],
+    "company_id": 338
+  },
+  {
+    "volume": 0.0,
+    "name": "Green Earth Sustainable Solution Inc.",
+    "coordinates": [-121.776, 37.2307],
+    "company_id": 335
+  },
+  {
+    "volume": 0.0,
+    "name": "GreenX2",
+    "coordinates": [-88.6474, 36.8197],
+    "company_id": 338
+  }
+]

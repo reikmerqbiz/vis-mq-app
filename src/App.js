@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import SideNav, {
+  Toggle,
+  Nav,
+  NavItem,
+  NavIcon,
+  NavText
+} from '@trendmicro/react-sidenav';
 
-import logo from './logo.svg';
 import './App.css';
+import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 // import ButtonGroup from '@salesforce/design-system-react/components/button-group';
 // import ButtonStateful from '@salesforce/design-system-react/components/button-stateful';
 // import Dropdown from '@salesforce/design-system-react/components/menu-dropdown';
@@ -30,6 +37,10 @@ import {
   TabsPanel
 } from '@salesforce/design-system-react';
 
+import Map0 from './Map0';
+
+import Supplier from './Supplier';
+
 const sampleItems = [
   { id: '1', name: 'Cloudhub' },
   { id: '2', name: 'Cloudhub + Anypoint Connectors' },
@@ -42,7 +53,7 @@ const sampleReportCategories = [
     label: 'Charts',
     items: [
       { id: 'inventory_chart', label: 'Inventory chart' },
-      { id: 'sell_grade_chart', label: 'Sale chart' },
+      { id: 'sales_chart', label: 'Sales chart' },
       { id: 'quality_chart', label: 'Quality chart' }
     ]
   },
@@ -85,6 +96,7 @@ class App extends Component {
 
     return (
       <IconSettings iconPath="/icons">
+        {/* <Logo /> */}
         <GlobalHeader
           logoSrc="/icons/merQbiz-color-logo.png"
           onSkipToContent={() => {
@@ -94,19 +106,6 @@ class App extends Component {
             console.log('>>> Skip to Nav Clicked');
           }}
         >
-          <Avatar
-            assistiveText={{ icon: 'Avatar image' }}
-            imgSrc="https://earth911.com/wp-content/uploads/2018/05/logo_white.png"
-            imgAlt="cascade"
-            size="large"
-          />
-          {/* <GlobalHeaderSearch
-            placeholder="Search Salesforce"
-            onSelect={() => {
-              console.log('>>> onSelect');
-            }}
-            options={[{ label: 'Email' }, { label: 'Mobile' }]}
-          /> */}
           <GlobalHeaderButton
             className="slds-m-right_small"
             iconVariant={null}
@@ -125,32 +124,6 @@ class App extends Component {
             }}
             variant="neutral"
           />
-          {/* <GlobalHeaderDropdown
-            assistiveText={{ icon: 'Global Actions' }}
-            id="global-header-dropdown-example"
-            iconCategory="utility"
-            iconName="add"
-            onSelect={() => {
-              console.log('>>> onSelect');
-            }}
-            options={[{ label: 'New Note' }, { label: 'Log a Call' }]}
-          />
-          <GlobalHeaderButton
-            assistiveText={{ icon: 'Help and Training' }}
-            iconCategory="utility"
-            iconName="question"
-            onClick={() => {
-              console.log('>>> onClick');
-            }}
-          />
-          <GlobalHeaderButton
-            assistiveText={{ icon: 'Setup' }}
-            iconCategory="utility"
-            iconName="settings"
-            onClick={() => {
-              console.log('>>> onClick');
-            }}
-          /> */}
           <GlobalHeaderProfile
             avatar="/images/avatar2.jpg"
             id="global-header-profile-example"
@@ -163,105 +136,53 @@ class App extends Component {
             options={[{ label: 'Profile Menu' }]}
           />
         </GlobalHeader>
-        <div className="outer-container">
-          <Tabs variant="scoped" id="tabs-example-scoped">
-            <TabsPanel label="Item One">Item One Content</TabsPanel>
-            <TabsPanel label="Item Two">Item Two Content</TabsPanel>
-            <TabsPanel label="Item Three">Item Three Content</TabsPanel>
-            <TabsPanel disabled label="Disabled">
-              Disabled Content
-            </TabsPanel>
-          </Tabs>
-        </div>
-        {/* 
-        <div className="outer-container">
-          <div style={{ width: '320px' }}>
-            <VerticalNavigation
-              id="sample-navigation"
-              categories={sampleReportCategories}
-              selectedId={this.state.selectedId}
-              onSelect={(event, data) => {
-                this.setState({ selectedId: data.item.id });
-                if (this.props.action) {
-                  const dataAsArray = Object.keys(data).map(key => data[key]);
-                  this.props.action('onSelect')(event, data, ...dataAsArray);
-                } else if (console) {
-                  console.log('[onSelect] (event, data)', event, data);
-                }
-              }}
-            />
-          </div>
 
-          <ButtonGroup>
-            <ButtonStateful
-              assistiveText={{ icon: 'Show Chart' }}
-              buttonVariant="icon"
-              iconName="chart"
-              iconVariant="border"
-              variant="icon"
-            />
-            <ButtonStateful
-              assistiveText={{ icon: 'Filter List' }}
-              iconName="filterList"
-              iconVariant="border"
-              variant="icon"
-            />
-            <Dropdown
-              assistiveText={{ icon: 'Settings' }}
-              checkmark
-              iconCategory="utility"
-              iconName="settings"
-              iconVariant="more"
-              id="icon-dropdown-example"
-              onSelect={item => {
-                console.log(item.label, 'selected');
-              }}
-              openOn="click"
-              options={[
-                { label: 'Bring left panel to front', value: 'A0' },
-                { label: 'Bring right panel to front', value: 'B0' }
-              ]}
-              value="A0"
-              variant="icon"
-            />
-          </ButtonGroup>
+        <Router>
+          <Route
+            render={({ location, history }) => (
+              <React.Fragment>
+                <SideNav>
+                  <SideNav.Toggle navitemClassName="merq-left-nav" />
+                  <SideNav.Nav defaultSelected="home">
+                    <NavItem eventKey="/">
+                      <NavIcon>
+                        <i
+                          className="fa fa-fw fa-home"
+                          style={{ fontSize: '1.75em' }}
+                        />
+                      </NavIcon>
+                      <NavText>Home</NavText>
+                    </NavItem>
+                    <NavItem eventKey="/supplier/21">
+                      <NavIcon>
+                        <i
+                          className="fa fa-fw fa-line-chart"
+                          style={{ fontSize: '1.75em' }}
+                        />
+                      </NavIcon>
+                      <NavText>Charts</NavText>
+                      <NavItem eventKey="/supplier/21">
+                        <NavText>Line Chart</NavText>
+                      </NavItem>
+                      <NavItem eventKey="charts/barchart">
+                        <NavText>Bar Chart</NavText>
+                      </NavItem>
+                    </NavItem>
+                  </SideNav.Nav>
+                </SideNav>
 
-          <div className="slds-grid slds-grid_vertical">
-            <Card
-              id="ExampleCard"
-              filter={
-                (!isEmpty || this.state.isFiltering) && (
-                  <CardFilter onChange={this.handleFilterChange} />
-                )
-              }
-              headerActions={
-                !isEmpty && (
-                  <Button
-                    label="Delete All Items"
-                    onClick={this.handleDeleteAllItems}
-                  />
-                )
-              }
-              heading="Releated Items"
-              icon={<Icon category="standard" name="document" size="small" />}
-              empty={
-                isEmpty ? (
-                  <CardEmpty heading="No Related Items">
-                    <Button label="Add Item" onClick={this.handleAddItem} />
-                  </CardEmpty>
-                ) : null
-              }
-            >
-              <DataTable items={this.state.items} id="DataTableExample-1">
-                <DataTableColumn
-                  label="Opportunity Name"
-                  property="name"
-                  truncate
-                />
-              </DataTable>
-            </Card>
-          </div>
-        </div> */}
+                <div className="outer-container">
+                  <Map0 />
+                  <div>
+                    <Switch>
+                      <Route path="/supplier/:id" component={Supplier} />
+                    </Switch>
+                  </div>
+                </div>
+              </React.Fragment>
+            )}
+          />
+        </Router>
       </IconSettings>
     );
   }
