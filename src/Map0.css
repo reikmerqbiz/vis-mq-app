@@ -1,3 +1,17 @@
 .supplier-bubble {
   color: red;
 }
+
+.map0__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.map0__header span {
+  font-size: 2rem;
+  color: #666666;
+}
+
+map0__header-buttons {
+}

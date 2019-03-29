@@ -2,7 +2,18 @@
   border: solid 1px red;
   padding: 0 1rem;
   width: 90%;
+  color: #666;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 5rem;
+}
+
+.inventory-container,
+.sales-container,
+.quality-container {
+  padding: 1rem 2rem;
+}
+
+.slds-card {
+  padding: 1rem 2rem 3rem;
 }

@@ -13,25 +13,44 @@ class Sales extends Component {
           data={[
             [
               'x',
-              '#9 OI/ OIN Over-Issue News',
-              '#10 OMG Magazine',
+              // '#9 OI/ OIN Over-Issue News',
+              // '#10 OMG Magazine',
+              // '#11 OCC Old Corrugated Containers',
+              // '#12 DS OCC Double-Sorted Old Corrugated',
+              // '#13 DLK New Double Line Kraft Corrugated Cuttings',
+              // '#14 Fiber Cores'
               '#11 OCC Old Corrugated Containers',
-              '#12 DS OCC Double-Sorted Old Corrugated',
               '#13 DLK New Double Line Kraft Corrugated Cuttings',
-              '#14 Fiber Cores'
+              '#43 CBS Coated Book Stock'
             ],
-            ['Jan/2017', 0, 0, 7, 9, 5, 8],
-            ['Feb/2017', 10, 5, 4, 7, 7, 4],
-            ['Mar/2017', 23, 15, 22, 35, 12, 10],
-            ['Apr/2017', 17, 94, 6, 3, 14, 12],
-            ['May/2017', 18, 10, 66, 7, 8, 9],
-            ['Jun/2017', 9, 5, 3, 4, 7, 2],
-            ['Jul/2017', 11, 3, 23, 11, 10, 14],
-            ['Aug/2017', 27, 19, 10, 9, 8, 8]
+            ['2017/Jan', 800, 500, 100],
+            ['Feb', 900, 500, 300],
+            ['Mar', 700, 300, 300],
+            ['Apr', 1000, 300, 100],
+            ['May', 1000, 300, 100],
+            ['Jun', 1000, 600, 100],
+            ['Jul', 800, 400, 100],
+            ['Aug', 800, 200, 100],
+            ['Sep', 900, 300, 50],
+            ['Oct', 1200, 100, 100],
+            ['Nov', 1200, 200, 200],
+            ['Dec', 1000, 300, 200],
+            ['2018/Jan', 700, 800, 200],
+            ['Feb', 1200, 500, 400],
+            ['Mar', 1300, 100, 400],
+            ['Apr', 1400, 200, 400],
+            ['May', 1200, 100, 100],
+            ['Jun', 1000, 200, 100],
+            ['Jul', 1400, 300, 100],
+            ['Aug', 1300, 200, 100],
+            ['Sep', 1000, 200, 200],
+            ['Oct', 1400, 200, 100],
+            ['Nov', 1500, 300, 200],
+            ['Dec', 1500, 400, 200]
           ]}
           options={{
             hAxis: {
-              title: 'Time'
+              title: ''
             },
             vAxis: {
               title: 'Tons'

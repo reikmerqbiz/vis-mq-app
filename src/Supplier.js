@@ -45,18 +45,13 @@ class Supplier extends Component {
     console.log(this.props.match);
     return (
       <div className="supplier-container">
-        <h2> Supplier Data</h2>
-        <img src={Logo} width="200" />
-        <Card heading="Availability">
-          <h3>Availability</h3>
+        <Card heading="Top 3 Paper Grade Availability">
           <Inventory />
         </Card>
         <Card heading="Sales history">
-          <h3>Sales history</h3>
           <Sales />
         </Card>
         <Card heading="Sales history">
-          <h3>Quality data</h3>
           <Quality />
         </Card>
       </div>

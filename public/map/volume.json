@@ -17,12 +17,7 @@
     "coordinates": [-74.8224, 40.1306],
     "company_id": 21
   },
-  {
-    "volume": 6000.0,
-    "name": "MCC Recycling Services, LLC",
-    "coordinates": [-75.7057, 41.4077],
-    "company_id": 21
-  },
+
   {
     "volume": 6000.0,
     "name": "Bluewater Project Inc",
@@ -161,12 +156,7 @@
     "coordinates": [-98.5314, 29.4601],
     "company_id": 298
   },
-  {
-    "volume": 1200.0,
-    "name": "-",
-    "coordinates": [-80.2846, 26.1827],
-    "company_id": 448
-  },
+
   {
     "volume": 1200.0,
     "name": "Ascent Recycling",

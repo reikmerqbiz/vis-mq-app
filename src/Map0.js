@@ -10,7 +10,7 @@ import {
 import { scaleLinear } from 'd3-scale';
 import request from 'axios';
 import ReactTooltip from 'react-tooltip';
-
+import { Button } from '@salesforce/design-system-react';
 import './Map0.css';
 
 const wrapperStyles = {
@@ -28,10 +28,23 @@ class Map0 extends Component {
     super();
     this.state = {
       suppliers: [],
-      buyers: []
+      buyers: [],
+      zoom: 1
     };
     this.fetchSuppliers = this.fetchSuppliers.bind(this);
     this.fetchBuyers = this.fetchBuyers.bind(this);
+    this.handleZoomIn = this.handleZoomIn.bind(this);
+    this.handleZoomOut = this.handleZoomOut.bind(this);
+  }
+  handleZoomIn() {
+    this.setState({
+      zoom: this.state.zoom * 2
+    });
+  }
+  handleZoomOut() {
+    this.setState({
+      zoom: this.state.zoom / 2
+    });
   }
   componentDidMount() {
     setTimeout(() => {
@@ -56,9 +69,18 @@ class Map0 extends Component {
   }
   render() {
     return (
-      <div style={wrapperStyles}>
-        {/* 
-          <Link to="/aaa">AAA</Link> */}
+      <div style={wrapperStyles} className="map0">
+        <div className="map0__header">
+          <span>Suppliers Map</span>
+          <div className="map0__header-buttons">
+            <Button iconCategory="utility" onClick={this.handleZoomIn}>
+              {'Zoom in'}
+            </Button>
+            <Button iconCategory="utility" onClick={this.handleZoomOut}>
+              {'Zoom out'}
+            </Button>
+          </div>
+        </div>
 
         <ComposableMap
           projection="albersUsa"
@@ -72,7 +94,7 @@ class Map0 extends Component {
             height: 'auto'
           }}
         >
-          <ZoomableGroup disablePanning>
+          <ZoomableGroup zoom={this.state.zoom}>
             <Geographies geography="/map/states.json">
               {(geographies, projection) =>
                 geographies.map(
