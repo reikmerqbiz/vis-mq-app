@@ -4,43 +4,24 @@ import { Chart } from 'react-google-charts';
 class Inventory extends Component {
   render() {
     return (
-      <div className={'my-pretty-chart-container'}>
+      <div className="inventory-container">
         <Chart
-          chartType="ScatterChart"
-          data={[['Age', 'Weight'], [4, 5.5], [8, 12]]}
-          width="100%"
-          height="400px"
-          legendToggle
-        />
-
-        <Chart
-          width={'900px'}
-          height={'300px'}
+          width={'90%'}
+          height={'400px'}
           chartType="Bar"
           loader={<div>Loading Chart</div>}
           data={[
-            ['Year', 'grade', 'volume'],
-            ['2017/Jan', '#11 OCC Old Corrugated Containers', 1000],
-            ['2017/Jan', '#43 CBS Coated Book Stock', 200],
             [
-              '2017/Jan',
+              'Year',
+              '#11 OCC Old Corrugated Containers',
               '#13 DLK New Double Line Kraft Corrugated Cuttings',
-              660
+              '#43 CBS Coated Book Stock'
             ],
-            ['2017/Feb', '#11 OCC Old Corrugated Containers', 1000],
-            ['2017/Feb', '#43 CBS Coated Book Stock', 200],
-            [
-              '2017/Feb',
-              '#13 DLK New Double Line Kraft Corrugated Cuttings',
-              660
-            ],
-            ['2017/Mar', '#11 OCC Old Corrugated Containers', 1000],
-            ['2017/Mar', '#43 CBS Coated Book Stock', 200],
-            [
-              '2017/Mar',
-              '#13 DLK New Double Line Kraft Corrugated Cuttings',
-              660
-            ]
+            ['2017/Jan', 100, 200, 1000],
+            ['2017/Feb', 200, 300, 500],
+            ['2017/Mar', 200, 300, 500],
+            ['2017/Apr', 200, 300, 50],
+            ['2017/May', 200, 300, 50]
           ]}
           options={{
             // Material design options

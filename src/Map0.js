@@ -10,8 +10,7 @@ import {
 import { scaleLinear } from 'd3-scale';
 import request from 'axios';
 import ReactTooltip from 'react-tooltip';
-// import './styles.css';
-//import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
 import './Map0.css';
 
 const wrapperStyles = {
