@@ -48,10 +48,10 @@ class Supplier extends Component {
         <Card heading="Top 3 Paper Grade Availability">
           <Inventory />
         </Card>
-        <Card heading="Sales history">
+        <Card heading="Sales History">
           <Sales />
         </Card>
-        <Card heading="Sales history">
+        <Card heading="Recyclability Change">
           <Quality />
         </Card>
       </div>

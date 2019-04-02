@@ -71,7 +71,45 @@ class App extends Component {
   render() {
     const isEmpty = this.state.items.length === 0;
     return (
-      <IconSettings iconPath="/icons">
+      <div>
+        <SideNav>
+          <SideNav.Toggle navitemClassName="merq-left-nav" />
+          <SideNav.Nav defaultSelected="home">
+            <NavItem eventKey="/">
+              <NavIcon>
+                <i
+                  className="fa fa-fw fa-home"
+                  style={{ fontSize: '1.75em' }}
+                />
+              </NavIcon>
+              <i
+                className="fa fa-fw fa-home"
+                style={{ fontSize: '1.75em', verticalAlign: 'middle' }}
+              />
+
+              <NavText>
+                <a href="/">Home</a>
+              </NavText>
+            </NavItem>
+            <NavItem eventKey="/">
+              <NavIcon>
+                <i
+                  className="fa fa-fw fa-line-chart"
+                  style={{ fontSize: '1.75em' }}
+                />
+              </NavIcon>
+              <NavText>Account</NavText>
+              <NavItem eventKey="/supplier/21">
+                <NavText style={{ paddingLeft: 50 }}>Order History</NavText>
+              </NavItem>
+              <NavItem eventKey="charts/barchart">
+                <NavText style={{ paddingLeft: 50 }}>Setting</NavText>
+              </NavItem>
+            </NavItem>
+          </SideNav.Nav>
+        </SideNav>
+
+        {/* <IconSettings iconPath="/icons"> */}
         <Switch>
           <Route path="/supplier/:id" component={HeaderSupplier} />
           <Route exact path="/" component={Header} />
@@ -81,36 +119,6 @@ class App extends Component {
           <Route
             render={({ location, history }) => (
               <React.Fragment>
-                <SideNav>
-                  <SideNav.Toggle navitemClassName="merq-left-nav" />
-                  <SideNav.Nav defaultSelected="home">
-                    <NavItem eventKey="/">
-                      <NavIcon>
-                        <i
-                          className="fa fa-fw fa-home"
-                          style={{ fontSize: '1.75em' }}
-                        />
-                      </NavIcon>
-                      <NavText>Home</NavText>
-                    </NavItem>
-                    <NavItem eventKey="/">
-                      <NavIcon>
-                        <i
-                          className="fa fa-fw fa-line-chart"
-                          style={{ fontSize: '1.75em' }}
-                        />
-                      </NavIcon>
-                      <NavText>Charts</NavText>
-                      <NavItem eventKey="/supplier/21">
-                        <NavText>Line Chart</NavText>
-                      </NavItem>
-                      <NavItem eventKey="charts/barchart">
-                        <NavText>Bar Chart</NavText>
-                      </NavItem>
-                    </NavItem>
-                  </SideNav.Nav>
-                </SideNav>
-
                 <div className="outer-container">
                   <Switch>
                     <Route exact path="/" component={Map0} />
@@ -125,7 +133,8 @@ class App extends Component {
             )}
           />
         </Router>
-      </IconSettings>
+        {/* </IconSettings> */}
+      </div>
     );
   }
 }

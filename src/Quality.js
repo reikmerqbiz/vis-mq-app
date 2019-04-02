@@ -50,7 +50,7 @@ class Quality extends Component {
               title: ''
             },
             vAxis: {
-              title: 'Recycable %'
+              title: 'Recyclability %'
             },
             series: {
               1: { curveType: 'function' }

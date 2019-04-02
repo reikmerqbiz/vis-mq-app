@@ -45,8 +45,8 @@ class Inventory extends Component {
           options={{
             // Material design options
             chart: {
-              title: 'Sales chart',
-              subtitle: 'Sales and Volume: 2017/Jan - 2018/Dec'
+              title: '',
+              subtitle: 'Availability Volume Change: 2017/Jan - 2018/Dec'
             }
           }}
           // For tests
