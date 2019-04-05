@@ -42,16 +42,18 @@ import './Supplier.css';
 
 class Supplier extends Component {
   render() {
-    console.log(this.props.match);
     return (
       <div className="supplier-container">
-        <Card heading="Top 3 Paper Grade Availability">
-          <Inventory />
-        </Card>
         <Card heading="Sales History">
           <Sales />
         </Card>
+        <Card heading="Top 3 Paper Grade Availability">
+          <Inventory />
+        </Card>
         <Card heading="Recyclability Change">
+          <span className="supplier-container__subtitle">
+            Recyclability = 100% - Prohibitive Materials% - Outthrows%
+          </span>
           <Quality />
         </Card>
       </div>

@@ -1,6 +1,6 @@
 [
   {
-    "volume": 30000.0,
+    "volume": 6000.0,
     "name": "Styro Recycle",
     "coordinates": [-122.25, 47.4008],
     "company_id": 269
@@ -1100,7 +1100,7 @@
     "company_id": 103
   },
   {
-    "volume": 120.0,
+    "volume": 2800.0,
     "name": "Allied Waste Services of North America, LLC",
     "coordinates": [-78.8943, 42.9684],
     "company_id": 374
@@ -1124,7 +1124,7 @@
     "company_id": 13
   },
   {
-    "volume": 120.0,
+    "volume": 520.0,
     "name": "Allied Waste Services of North America, LLC",
     "coordinates": [-78.8956, 42.9669],
     "company_id": 374

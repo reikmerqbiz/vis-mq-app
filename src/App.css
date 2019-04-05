@@ -55,3 +55,39 @@ nav {
 .sidenav-nav {
   background-color: yellowgreen;
 }
+
+.slds-theme--success,
+.slds-theme_success {
+  background-color: #2a87e1 !important;
+}
+
+.modal_company {
+  color: gray;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.modal_company_title {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.modal_company_info1 {
+  border: 1px solid gray;
+  border-radius: 25px;
+}
+
+.slds-grid {
+  width: 100%;
+  justify-content: flex-end;
+}
+.slds-m-right_medium {
+  padding: 0 2rem;
+}
+.float_left {
+  margin-right: 5rem;
+}
