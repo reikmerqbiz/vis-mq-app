@@ -49,7 +49,7 @@ class HeaderSupplier extends Component {
         <Modal
           dismissible={false}
           footer={[
-            <Button key="promptBtn" label="Got it" onClick={this.toggleOpen} />
+            <Button key="promptBtn" label="close" onClick={this.toggleOpen} />
           ]}
           isOpen={this.state.isOpen}
           onRequestClose={this.toggleOpen}

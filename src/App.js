@@ -75,7 +75,7 @@ class App extends Component {
         <SideNav>
           <SideNav.Toggle navitemClassName="merq-left-nav" />
           <SideNav.Nav defaultSelected="home">
-            <NavItem eventKey="/">
+            <NavItem>
               <NavIcon>
                 <i
                   className="fa fa-fw fa-home"
@@ -88,7 +88,7 @@ class App extends Component {
               />
 
               <NavText>
-                <a href="/">Home</a>
+                <a href="/home">Home</a>
               </NavText>
             </NavItem>
             <NavItem eventKey="/">
@@ -112,7 +112,7 @@ class App extends Component {
         {/* <IconSettings iconPath="/icons"> */}
         <Switch>
           <Route path="/supplier/:id" component={HeaderSupplier} />
-          <Route exact path="/" component={Header} />
+          <Route exact path="/home" component={Header} />
         </Switch>
 
         <Router>
@@ -121,7 +121,7 @@ class App extends Component {
               <React.Fragment>
                 <div className="outer-container">
                   <Switch>
-                    <Route exact path="/" component={Map0} />
+                    <Route exact path="/home" component={Map0} />
                   </Switch>
                   <div>
                     <Switch>

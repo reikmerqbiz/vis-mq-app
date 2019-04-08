@@ -8,7 +8,7 @@ import Supplier from './Supplier';
 const routing = (
   <Router>
     <div>
-      <Route exact path="/" component={App} />
+      <Route exact path="/home" component={App} />
       <Route path="/supplier/:id" component={App} />
     </div>
   </Router>

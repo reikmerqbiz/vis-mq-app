@@ -1,0 +1,33 @@
+.average-data {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+  margin: 0 1rem 1rem 0;
+  max-width: 680px;
+}
+
+.average-data--half {
+  width: 45%;
+}
+
+.average-data-header {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.average-data-column {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+
+  justify-content: space-between;
+  padding: 0.1rem 1rem;
+}
+
+.average-data-column-grade {
+  width: 50%;
+  align-self: flex-start;
+}
