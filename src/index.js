@@ -10,6 +10,7 @@ const routing = (
     <div>
       <Route exact path="/home" component={App} />
       <Route path="/supplier/:id" component={App} />
+      <Route path="/sisense" component={App} />
     </div>
   </Router>
 );

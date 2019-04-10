@@ -34,6 +34,7 @@ import {
 } from '@salesforce/design-system-react';
 
 import Map0 from './Map0';
+import Sisense from './Sisense';
 import Header from './Header';
 import HeaderSupplier from './HeaderSupplier';
 import Supplier from './Supplier';
@@ -73,7 +74,7 @@ class App extends Component {
     return (
       <div>
         <SideNav>
-          <SideNav.Toggle navitemClassName="merq-left-nav" />
+          <SideNav.Toggle className="merq-left-nav" />
           <SideNav.Nav defaultSelected="home">
             <NavItem>
               <NavIcon>
@@ -113,6 +114,7 @@ class App extends Component {
         <Switch>
           <Route path="/supplier/:id" component={HeaderSupplier} />
           <Route exact path="/home" component={Header} />
+          <Route exact path="/sisense" component={Header} />
         </Switch>
 
         <Router>
@@ -122,12 +124,11 @@ class App extends Component {
                 <div className="outer-container">
                   <Switch>
                     <Route exact path="/home" component={Map0} />
+
+                    <Route path="/supplier/:id" component={Supplier} />
+
+                    <Route path="/sisense" component={Sisense} />
                   </Switch>
-                  <div>
-                    <Switch>
-                      <Route path="/supplier/:id" component={Supplier} />
-                    </Switch>
-                  </div>
                 </div>
               </React.Fragment>
             )}

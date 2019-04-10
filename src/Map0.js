@@ -23,6 +23,8 @@ const supScale = scaleLinear()
   .domain([0, 10000])
   .range([1, 25]);
 
+const chartSampleUrl =
+  'http://sisense.merqbiz.com:8081/app/main#/dashboards/5cab92b19feb360c1ced8a20?embed=true&h=true&i=true';
 class Map0 extends Component {
   constructor() {
     super();
@@ -52,6 +54,22 @@ class Map0 extends Component {
     }, 100);
     this.fetchSuppliers();
     this.fetchBuyers();
+
+    // fetch(chartSampleUrl, {
+    //   method: 'GET',
+    //   mode: 'cors',
+    //   // credentials: 'include',
+    //   redirect: 'follow',
+    //   referrerPolicy: 'origin-when-cross-origin'
+    // })
+    //   // fetch(chartSampleUrl)
+    //   .then(function(response) {
+    //     console.log('ZZZ response', response);
+    //     return response;
+    //   })
+    //   .then(function(myJson) {
+    //     console.log('ZZZ MY JSON', JSON.stringify(myJson));
+    //   });
   }
   fetchSuppliers() {
     request.get('/map/volume.json').then(res => {
@@ -81,7 +99,6 @@ class Map0 extends Component {
             </Button>
           </div>
         </div>
-
         <ComposableMap
           projection="albersUsa"
           projectionConfig={{
@@ -207,6 +224,11 @@ class Map0 extends Component {
           delayHide={1000}
           clickable={true}
         />
+        aaa
+        {/* <div id={sisenseSettings.applicationDivId} className="SisenseWrapper">
+          <Dashboard> </Dashboard>
+        </div> */}
+        cccc
       </div>
     );
   }
