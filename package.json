@@ -6,6 +6,8 @@
     "@salesforce-ux/design-system": "^2.8.3",
     "@salesforce/design-system-react": "^0.9.6",
     "@trendmicro/react-sidenav": "^0.4.5",
+    "amazon-quicksight-embedding-sdk": "^1.0.3",
+    "aws-sdk": "^2.437.0",
     "axios": "0.16.2",
     "d3-scale": "1.0.6",
     "pondjs": "^0.8.10",
