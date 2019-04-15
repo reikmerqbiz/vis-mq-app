@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 import { sisenseSettings } from './config/sisense';
 import Dashboard from './sisense/dashboard';
 import './Sisense.css';
-const AWS = require('aws-sdk');
+//const AWS = require('aws-sdk');
 
 const QuickSightEmbedding = require('amazon-quicksight-embedding-sdk');
 
-var quicksight = new AWS.Service({
-  apiConfig: require('./aws/quicksight-2018-04-01.min.json'),
-  region: 'us-east-1'
-});
+// var quicksight = new AWS.Service({
+//   apiConfig: require('./aws/quicksight-2018-04-01.min.json'),
+//   region: 'us-east-1'
+// });
 
 const wrapperStyles = {
   width: '100%',
@@ -76,61 +76,61 @@ class Sisense extends Component {
     ];
 
     // const getEmbedUrl = 'https://7fa83cd0.ngrok.io/embedurl/';
-    dashboardArray.forEach((dashboardId, index) => {
-      quicksight.getDashboardEmbedUrl(
-        {
-          AwsAccountId: '686369546281',
-          DashboardId: dashboardId,
-          IdentityType: 'IAM',
-          ResetDisabled: true,
-          SessionLifetimeInMinutes: 100,
-          UndoRedoDisabled: false
-        },
-        function(err, data) {
-          if (err) {
-            console.log('Errors: ');
-            console.log(err);
-          } else {
-            console.log('Response: ');
-            console.log(data);
-            if (data.Status === 200) {
-              const options = {
-                url: data.EmbedUrl,
-                container: document.getElementById(
-                  'dashboardContainer' + index
-                ),
-                scrolling: 'no',
-                height: '700px',
-                width: '1000px'
-              };
-              const dashboard = QuickSightEmbedding.embedDashboard(options);
-            }
-          }
-        }
-      );
+    // dashboardArray.forEach((dashboardId, index) => {
+    //   quicksight.getDashboardEmbedUrl(
+    //     {
+    //       AwsAccountId: '686369546281',
+    //       DashboardId: dashboardId,
+    //       IdentityType: 'IAM',
+    //       ResetDisabled: true,
+    //       SessionLifetimeInMinutes: 100,
+    //       UndoRedoDisabled: false
+    //     },
+    //     function(err, data) {
+    //       if (err) {
+    //         console.log('Errors: ');
+    //         console.log(err);
+    //       } else {
+    //         console.log('Response: ');
+    //         console.log(data);
+    //         if (data.Status === 200) {
+    //           const options = {
+    //             url: data.EmbedUrl,
+    //             container: document.getElementById(
+    //               'dashboardContainer' + index
+    //             ),
+    //             scrolling: 'no',
+    //             height: '700px',
+    //             width: '1000px'
+    //           };
+    //           const dashboard = QuickSightEmbedding.embedDashboard(options);
+    //         }
+    //       }
+    //     }
+    //   );
 
-      // fetch(getEmbedUrl + dashboardId)
-      //   .then(response => {
-      //     console.log('ZZZ', response);
-      //     return response.json();
-      //   })
-      //   .then(res => {
-      //     console.log('ZZZAAA', res);
-      //     if (res.Status === 200) {
-      //       const options = {
-      //         url: res.EmbedUrl,
-      //         container: document.getElementById('dashboardContainer' + index),
-      //         scrolling: 'no',
-      //         height: '700px',
-      //         width: '1000px'
-      //       };
-      //       const dashboard = QuickSightEmbedding.embedDashboard(options);
-      //     }
-      //   })
-      //   .catch(err => {
-      //     console.log(err);
-      //   });
-    });
+    //   // fetch(getEmbedUrl + dashboardId)
+    //   //   .then(response => {
+    //   //     console.log('ZZZ', response);
+    //   //     return response.json();
+    //   //   })
+    //   //   .then(res => {
+    //   //     console.log('ZZZAAA', res);
+    //   //     if (res.Status === 200) {
+    //   //       const options = {
+    //   //         url: res.EmbedUrl,
+    //   //         container: document.getElementById('dashboardContainer' + index),
+    //   //         scrolling: 'no',
+    //   //         height: '700px',
+    //   //         width: '1000px'
+    //   //       };
+    //   //       const dashboard = QuickSightEmbedding.embedDashboard(options);
+    //   //     }
+    //   //   })
+    //   //   .catch(err => {
+    //   //     console.log(err);
+    //   //   });
+    // });
 
     // dashboard.on("error", onError);
     //dashboard0.on('load', this.onDashboardLoad);
