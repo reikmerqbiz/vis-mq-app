@@ -66,17 +66,36 @@ class Sisense extends Component {
   }
 
   embedDashboard() {
-    const optionsStatic = {
+    const optionsStatic0 = {
       url:
-        'https://us-west-2.quicksight.aws.amazon.com/embed/839dc5f89fff4a9cb163f08bfaac9bc0/dashboards/14868214-4b40-4227-a81c-e0bc79e7f01f?isauthcode=true&identityprovider=quicksight&code=AYABeHhv85nh_Tq8qg2SZuf_yeoAAAABAAdhd3Mta21zAEthcm46YXdzOmttczp1cy13ZXN0LTI6OTAwNjQ5NDI3MTk2OmtleS9iYzAzMTYzMy0xYzJiLTRlMzEtYWM5ZC0yODQ2NDkwZjEyM2YAuAECAQB40gT0H6ffs2IokH0UWaT8Za9YAN433tzCnQ3c3oKHzWUBttZtHaeA_JzXM5i2R0bGwgAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDCP61Zuc-S2xmUyzCQIBEIA7x7uA5gWMk1yI95FQZym9t1gxJ9m1dRe4OuczcLOJ8IkESefGuYr8jz1trC54ceKxebR6-bGJ-KqnOKYCAAAAAAwAABAAAAAAAAAAAAAAAAAAM0q5WQO2MR50bWgAcv_2i_____8AAAABAAAAAAAAAAAAAAABAAAAm2WiAij1xkYHujmJkA6-uQkY8x77EcP3riMOXnuLACvTb-yVjGGGZN5SAd6wwUUrE6UB-hvzzwqv28eqJM6exzgpRSLpEym3CaftL1icWcvoCDPQLQHc7TIuyWvXt5-bv3YSvzLlZ-y-0Pu1zwGOtoNZFl64YXvOr70jDCi-604YVv4eG371rM4wYxX5lTupk2hPTVQXfAEyBZk4qyIfWG0TOZcfQe-3xUlHHg%3D%3D',
-      container: document.getElementById('dashboardContainerStatic'),
+        'https://us-west-2.quicksight.aws.amazon.com/embed/d4a146a6d2c34cdd83c9d0f163828cee/dashboards/dcb930aa-098a-4b3a-9eed-6a4c23c8fc8d?isauthcode=true&identityprovider=quicksight&code=AYABeHYSbeKg5k6zqr3lazERnNYAAAABAAdhd3Mta21zAEthcm46YXdzOmttczp1cy13ZXN0LTI6OTAwNjQ5NDI3MTk2OmtleS9iYzAzMTYzMy0xYzJiLTRlMzEtYWM5ZC0yODQ2NDkwZjEyM2YAuAECAQB40gT0H6ffs2IokH0UWaT8Za9YAN433tzCnQ3c3oKHzWUBk6-qFNdEaSLRrBHfoncEPAAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDB2-TEKWQRuMLe182wIBEIA7tGQxUsJcfTvq2KHjhM7FKB4DKxHGaqI0X1DkgoBV3-a1Y8R1SoLQMRw1QmXDU_pH-bzQf4HpkoWXV_YCAAAAAAwAABAAAAAAAAAAAAAAAAAABYRB6HhsBH97Yy1XnIItuP____8AAAABAAAAAAAAAAAAAAABAAAAm-qjCjJAigQWJ5XLj2f09Kgo98qCNAIHk6x0EvCZaYPgUMTOhbchTxHXuVvA7P6TFex8vLSTy62sESycOHZ7BpsfxSF2u4BqAxZ8ng1V2FViJgU-0r517lzJHZUYI_FP0Igx3unR44wcMHCNvrGDNADcIVWGmn5zDkx5DweJLlOUCKc1ufm9ca2d4YhYq24X5637ognIZRF6UvZzUQ9nQHrzPtK3JpI346a1rg%3D%3D',
+      container: document.getElementById('dashboardContainerStatic0'),
       scrolling: 'no',
       height: '400px',
       width: '600px'
     };
 
-    const dashboardStatic = QuickSightEmbedding.embedDashboard(optionsStatic);
+    const optionsStatic1 = {
+      url:
+        'https://us-west-2.quicksight.aws.amazon.com/embed/72f1faec0d664522ae3dbcd499ff20fe/dashboards/ef4d5a87-b8fe-4416-84a6-e43bbd923cf3?isauthcode=true&identityprovider=quicksight&code=AYABeEkDy1vlRlDgcVha1okplJ4AAAABAAdhd3Mta21zAEthcm46YXdzOmttczp1cy13ZXN0LTI6OTAwNjQ5NDI3MTk2OmtleS9iYzAzMTYzMy0xYzJiLTRlMzEtYWM5ZC0yODQ2NDkwZjEyM2YAuAECAQB40gT0H6ffs2IokH0UWaT8Za9YAN433tzCnQ3c3oKHzWUBr-55c8EAV5ug74mTZOmrbgAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDDTmMyNDk-7Dt81CugIBEIA7PPteGlz57hATO_iWgFVRk9ry1do_XsMUvJyOC0c7sV7ZvsWr_UfQVbCznVzqmnH5lRZIm9IH7L5BA2ACAAAAAAwAABAAAAAAAAAAAAAAAAAAS0v8sMaWBA4SxhlArQY6Jf____8AAAABAAAAAAAAAAAAAAABAAAAmxPt7bXBWUwQ3ZC_vl1iVdM3qM9_T6ORIZiPnUrpWzrJ8TPnvHkMPWhwYpO3_eWHRC6YXxhiI9O-s-TTeYVuDIWU01DHVCzN8sEisyrKFjhfnjKFtaumFe9FrR3vPvuSKWatSSnuKzKMKGAZlgKjJYC8poUxUp4gkltg5PRvC9PrZRCqgHyG1_UvF2Ei7p-D6dAxPCgzXCMxe-TfHTbn8Tuz8I805lZPghiK0g%3D%3D',
+      container: document.getElementById('dashboardContainerStatic0'),
+      scrolling: 'no',
+      height: '400px',
+      width: '600px'
+    };
 
+    const optionsStatic2 = {
+      url:
+        'https://us-west-2.quicksight.aws.amazon.com/embed/4fd4b8f55b914db8ae7b892442362bf9/dashboards/a0d2beda-3e4e-4494-9744-d19d618246c4?isauthcode=true&identityprovider=quicksight&code=AYABeHqR62y17oR8wrQTJ3IVvkYAAAABAAdhd3Mta21zAEthcm46YXdzOmttczp1cy13ZXN0LTI6OTAwNjQ5NDI3MTk2OmtleS9iYzAzMTYzMy0xYzJiLTRlMzEtYWM5ZC0yODQ2NDkwZjEyM2YAuAECAQB40gT0H6ffs2IokH0UWaT8Za9YAN433tzCnQ3c3oKHzWUBEaIkLyv56uIevyP0Mmix5wAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDE9HfrXb5Q3priKGDwIBEIA7QDvju-n1wdyxcmcOZD8z8oHm_GobJLEHru5l12KYkUrmnxg8pEHJaHfhZ6qe9d5mT-5kELGKsbeDfyQCAAAAAAwAABAAAAAAAAAAAAAAAAAAFgKruOYu7a7XPR8R0w8Buf____8AAAABAAAAAAAAAAAAAAABAAAAm213UROK4ZNDlEEkrzJvg-hDBDLLUoW73Y-gGk6SUOmyq_mP8glGtdwPL2szACxDpGldKjD5uWu85o3WnVzPOMTEHGvwDxghQgKP3D5yBKAjgBJpVQAVf1_Ol3w5FfXTK7Nm5J3CmPRtHcMexk5-ubKB7L_74OAahh-EMJYcaaiOB4BHCezxTi2qIXDe3587hIonhrSqLpeyrijMqOt8J2hBoW-EeMvpxS75mA%3D%3D',
+      container: document.getElementById('dashboardContainerStatic2'),
+      scrolling: 'no',
+      height: '400px',
+      width: '600px'
+    };
+
+    const dashboardStatic0 = QuickSightEmbedding.embedDashboard(optionsStatic0);
+    const dashboardStatic1 = QuickSightEmbedding.embedDashboard(optionsStatic1);
+    const dashboardStatic2 = QuickSightEmbedding.embedDashboard(optionsStatic2);
     const dashboardArray = [
       'a0d2beda-3e4e-4494-9744-d19d618246c4',
       'ef4d5a87-b8fe-4416-84a6-e43bbd923cf3'
@@ -90,7 +109,7 @@ class Sisense extends Component {
           DashboardId: dashboardId,
           IdentityType: 'IAM',
           ResetDisabled: true,
-          SessionLifetimeInMinutes: 100,
+          SessionLifetimeInMinutes: 600,
           UndoRedoDisabled: false
         },
         function(err, data) {
@@ -149,8 +168,9 @@ class Sisense extends Component {
         <h3>QuickSight</h3>
         <div id="dashboardContainer0" />
         <div id="dashboardContainer1" />
-        <div id="dashboardContainerStatic" />
-
+        <div id="dashboardContainerStatic0" />
+        <div id="dashboardContainerStatic1" />
+        <div id="dashboardContainerStatic2" />
         {/* <div id={sisenseSettings.applicationDivId} className="SisenseWrapper">
           <Dashboard> </Dashboard>
         </div> */}
