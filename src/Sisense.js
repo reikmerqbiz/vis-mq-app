@@ -8,8 +8,6 @@ const AWS = require('aws-sdk');
 const QuickSightEmbedding = require('amazon-quicksight-embedding-sdk');
 
 var quicksight = new AWS.Service({
-  accessKeyId: 'AKIAI4H4LCIDF2XM7TXQ',
-  secretAccessKey: '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',
   apiConfig: require('./aws/quicksight-2018-04-01.min.json'),
   region: 'us-east-1'
 });
