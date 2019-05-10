@@ -35,6 +35,9 @@ import {
 
 import Map0 from './Map0';
 import Sisense from './Sisense';
+import Tableau from './Tableau';
+import Clicdata from './Clicdata';
+import Quicksight from './Quicksight';
 import Header from './Header';
 import HeaderSupplier from './HeaderSupplier';
 import Supplier from './Supplier';
@@ -114,6 +117,9 @@ class App extends Component {
         <Switch>
           <Route path="/supplier/:id" component={HeaderSupplier} />
           <Route exact path="/home" component={Header} />
+          <Route exact path="/tableau" component={Header} />
+          <Route exact path="/clicdata" component={Header} />
+          <Route exact path="/quicksight" component={Header} />
           <Route exact path="/sisense" component={Header} />
         </Switch>
 
@@ -124,9 +130,10 @@ class App extends Component {
                 <div className="outer-container">
                   <Switch>
                     <Route exact path="/home" component={Map0} />
-
                     <Route path="/supplier/:id" component={Supplier} />
-
+                    <Route path="/tableau" component={Tableau} />
+                    <Route path="/clicdata" component={Clicdata} />
+                    <Route path="/quicksight" component={Quicksight} />
                     <Route path="/sisense" component={Sisense} />
                   </Switch>
                 </div>

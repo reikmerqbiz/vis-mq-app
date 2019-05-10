@@ -2,5 +2,23 @@
 }
 
 .Sisense__iframe {
-  padding-left: 10rem;
+  padding: 0 0 2rem 1rem;
+}
+
+.Sisense__iframe__embed {
+  max-width: 90%;
+}
+
+h3 {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.iframe-full {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  width: 90%;
+
+  min-height: 600px;
+  border: 0;
 }

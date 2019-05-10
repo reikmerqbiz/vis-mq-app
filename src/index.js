@@ -11,6 +11,9 @@ const routing = (
       <Route exact path="/home" component={App} />
       <Route path="/supplier/:id" component={App} />
       <Route path="/sisense" component={App} />
+      <Route path="/tableau" component={App} />
+      <Route path="/clicdata" component={App} />
+      <Route path="/quicksight" component={App} />
     </div>
   </Router>
 );

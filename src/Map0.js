@@ -23,8 +23,6 @@ const supScale = scaleLinear()
   .domain([0, 10000])
   .range([1, 25]);
 
-const chartSampleUrl =
-  'http://sisense.merqbiz.com:8081/app/main#/dashboards/5cab92b19feb360c1ced8a20?embed=true&h=true&i=true';
 class Map0 extends Component {
   constructor() {
     super();
@@ -224,11 +222,6 @@ class Map0 extends Component {
           delayHide={1000}
           clickable={true}
         />
-        aaa
-        {/* <div id={sisenseSettings.applicationDivId} className="SisenseWrapper">
-          <Dashboard> </Dashboard>
-        </div> */}
-        cccc
       </div>
     );
   }
