@@ -14,6 +14,7 @@ const routing = (
       <Route path="/tableau" component={App} />
       <Route path="/clicdata" component={App} />
       <Route path="/quicksight" component={App} />
+      <Route path="/qlik" component={App} />
     </div>
   </Router>
 );

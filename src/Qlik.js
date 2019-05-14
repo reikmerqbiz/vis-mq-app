@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import tableau from 'tableau-api';
 import './Sisense.css';
 
 const wrapperStyles = {
@@ -8,7 +7,7 @@ const wrapperStyles = {
   margin: '0 auto'
 };
 
-class Tableau extends Component {
+class Qlik extends Component {
   constructor() {
     super();
     this.state = {};
@@ -16,17 +15,10 @@ class Tableau extends Component {
     this.viz2 = {};
     this.viz3 = {};
     this.changeParam = this.changeParam.bind(this);
-    this.changeParam2 = this.changeParam2.bind(this);
+    this.changeParam1 = this.changeParam1.bind(this);
   }
 
-  componentDidMount() {
-    const script = document.createElement('script');
-    script.src = 'https://10ay.online.tableau.com/javascripts/api/viz_v1.js';
-    script.async = true;
-    document.body.appendChild(script);
-
-    this.initViz();
-  }
+  componentDidMount() {}
 
   initViz() {
     const options = {
@@ -126,87 +118,26 @@ class Tableau extends Component {
     workbook.getActiveSheet().applyFilterAsync('Region', values, 'replace');
   }
 
-  changeParam2(value = 'All') {
-    let workbook = this.viz2.getWorkbook();
-
-    let values = [];
-    values.push(value);
-    console.log('WWW', values);
-    workbook.changeParameterValueAsync('RegionParam', values, 'replace');
-  }
-
-  changeParam3(value = 'All') {
-    let workbook = this.viz3.getWorkbook();
-
-    let values = [];
-    values.push(value);
-    console.log('ZZZ', values);
-    workbook.changeParameterValueAsync(
-      'Type String to filter',
-      values,
-      'replace'
-    );
+  iframe() {
+    return {
+      __html: `
+      <iframe width="620" height="515" src="https://charts.qlikcloud.com/5cd9cdd710eb40000af40dc3/chart.html" frameborder="0"></iframe>
+      `
+    };
   }
 
   render() {
     return (
       <div style={wrapperStyles} className="Sisense">
-        <h3>Tableau</h3>
-        <div
-          ref={div => {
-            this.vizContainer1 = div;
-          }}
-        >
-          {' '}
+        <h3>Qlik</h3>
+
+        <h3>Qlik Dashboard embedding</h3>
+        <div className="Sisense__iframe">
+          <div dangerouslySetInnerHTML={this.iframe()} />
         </div>
-        <button type="button" onClick={this.changeParam}>
-          Broker
-        </button>
-        <hr />
-        <div
-          ref={div => {
-            this.vizContainer2 = div;
-          }}
-        >
-          {' '}
-        </div>
-        Apply Filter
-        <button type="button" onClick={() => this.changeParam1('West')}>
-          West
-        </button>
-        <button type="button" onClick={() => this.changeParam1('Central')}>
-          Central
-        </button>
-        <button type="button" onClick={() => this.changeParam1('East')}>
-          East
-        </button>
-        Update param
-        <button type="button" onClick={() => this.changeParam2('West')}>
-          West
-        </button>
-        <button type="button" onClick={() => this.changeParam2('Central')}>
-          Central
-        </button>
-        <button type="button" onClick={() => this.changeParam2('East')}>
-          East
-        </button>
-        <hr />
-        <div
-          ref={div => {
-            this.vizContainer3 = div;
-          }}
-        >
-          {' '}
-        </div>
-        <button type="button" onClick={() => this.changeParam3('Wisconsin')}>
-          Wisconsin
-        </button>
-        <button type="button" onClick={() => this.changeParam3('West')}>
-          West
-        </button>
       </div>
     );
   }
 }
 
-export default Tableau;
+export default Qlik;

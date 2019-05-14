@@ -41,7 +41,7 @@ import Quicksight from './Quicksight';
 import Header from './Header';
 import HeaderSupplier from './HeaderSupplier';
 import Supplier from './Supplier';
-
+import Qlik from './Qlik';
 const sampleItems = [
   { id: '1', name: 'Cloudhub' },
   { id: '2', name: 'Cloudhub + Anypoint Connectors' },
@@ -121,6 +121,7 @@ class App extends Component {
           <Route exact path="/clicdata" component={Header} />
           <Route exact path="/quicksight" component={Header} />
           <Route exact path="/sisense" component={Header} />
+          <Route exact path="/qlik" component={Header} />
         </Switch>
 
         <Router>
@@ -135,6 +136,7 @@ class App extends Component {
                     <Route path="/clicdata" component={Clicdata} />
                     <Route path="/quicksight" component={Quicksight} />
                     <Route path="/sisense" component={Sisense} />
+                    <Route path="/qlik" component={Qlik} />
                   </Switch>
                 </div>
               </React.Fragment>

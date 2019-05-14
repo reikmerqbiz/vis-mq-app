@@ -20,7 +20,8 @@
     "react-select": "^2.4.2",
     "react-simple-maps": "~0.12.0",
     "react-timeseries-charts": "^0.15.5",
-    "react-tooltip": "^3.10.0"
+    "react-tooltip": "^3.10.0",
+    "tableau-api": "^2.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
