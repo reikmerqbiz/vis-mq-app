@@ -33,33 +33,14 @@ class Tableau extends Component {
       hideTabs: true,
       width: '700px',
       height: '400px'
-      // onFirstInteractive: () => {
-      //   const sheet = this.viz1
-      //     .getWorkbook()
-      //     .getActiveSheet()
-      //     .getWorksheets()
-      //     .get('Table');
-      //   const options = {
-      //     ignoreAliases: false,
-      //     ignoreSelection: false,
-      //     includeAllColumns: false
-      //   };
-      //   sheet.getUnderlyingDataAsync(options).then(t => {
-      //     const tableauData = t.getData();
-      //     let data = [];
-      //     const pointCount = tableauData.length;
-      //     for (let a = 0; a < pointCount; a++) {
-      //       data = data.concat({
-      //         x: tableauData[a][0].value,
-      //         y: Math.round(tableauData[a][3].value, 2)
-      //       });
-      //     }
-      //   });
-      // }
     };
+    // const vizUrl1 =
+    //   'https://10ay.online.tableau.com/t/valhalla/views/sample0/quater-East';
+
     const vizUrl1 =
-      'https://10ay.online.tableau.com/t/valhalla/views/sample0/quater-East';
+      'https://10ay.online.tableau.com/t/valhalla/views/suppliermap/Dashboard1';
     const vizContainer1 = this.vizContainer1;
+    options.height = '600px';
     this.viz1 = new window.tableau.Viz(vizContainer1, vizUrl1, options);
 
     const vizUrl2 =
